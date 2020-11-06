@@ -1,0 +1,88 @@
+body{
+    background: url("https://i.pinimg.com/originals/c8/16/77/c8167718b0ef943d10b0787038b19285.jpg") no-repeat center;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14pt;
+}
+div#fala{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top:1%;
+    position: relative;
+    padding-bottom: 4%;
+}
+
+img#aluno{
+    width: 6%;
+    margin-left: 10%;
+}
+img#prof{
+    width: 10%;
+}
+
+div#pp{
+    display: block;
+    padding: auto;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px){
+    div#fala{
+        background-color: aliceblue;
+        padding: 10px;
+        margin-top:1%;
+        position: relative;
+        padding-bottom: 5%;
+    }
+
+    img#aluno{
+        width: 20%;
+    }
+
+    img#prof{
+        width: 30%;
+        margin-right: 10%;
+    }
+    div#pp{
+        display: block;
+        padding: auto;
+        
+        background-repeat: no-repeat;
+    }
+}
+
+button{
+    margin-left: 80%;
+    padding: 10px 30px 10px 30px;
+    margin-top: -1%;
+    background: linear-gradient(to bottom, rgb(243, 243, 129), rgb(235, 161, 161));
+    border-radius: 10px 0px;
+    transition: 0.5s;
+    font-size: 14pt;
+}
+button:hover{
+    
+    background: linear-gradient(to top, rgb(243, 243, 129), rgb(235, 161, 161));
+    padding: 15px 35px 15px 35px;
+    cursor: pointer;
+    border-radius: 0px 10px;
+}
+
+button.lista{
+    margin-left: 0;
+    visibility: hidden;
+    display: grid;
+    margin-top: 2px;
+    background: linear-gradient(to bottom left, rgb(37, 5, 5), rgb(58, 58, 4));
+    color: azure;
+    
+}
+ul{
+    display: inline-table;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
