@@ -5,7 +5,7 @@ const aluno = document.querySelector("#aluno");
 let taJanela = window.innerWidth;
 
 function mostra(conteudo) {
-    conteudo.innerHTML = "<p>Coronavírus é uma familia de vírus, eles tem esse nome por conta que sua estrutura é semelhante uma coroa. Eles causam infecções respiratórias e já provocaram outras doenças  normalmente eles circulam apenas entre animais como morcegos e roedores, mas passam a infectar também as pessoas quando a convivência é muito próxima e os vírus sofrem mutações espontâneas e aleatórias.</p><br><div></div> ";
+    conteudo.innerHTML = "<p>Coronavírus é uma familia de vírus, eles tem esse nome por conta que sua estrutura é semelhante a uma coroa. Eles causam infecções respiratórias e podem provocar outras doenças, normalmente eles circulam apenas entre animais como morcegos e roedores, mas passam a infectar também as pessoas quando a convivência é muito próxima e os vírus sofrem mutações espontâneas e aleatórias.</p><br><div></div> ";
     next.style.visibility = 'hidden';
     botao1.style.visibility = 'visible';
     if (taJanela < 600) {
